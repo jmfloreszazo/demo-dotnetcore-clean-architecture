@@ -22,11 +22,13 @@ docker-compose up --force-recreate
 
 ## Manual testing the App
 
-### Will be empty at first
+In Postman you can create these use cases
+
+### In the first run, it will be empty
 
 GET http://localhost:5000/api/Greetings
 
-### Now add a Greetings
+### Now you can add a Greetings
 
 POST http://localhost:5000/api/Greetings
 
@@ -36,12 +38,12 @@ Content-Type: application/json
     "Message" : "Hello World"
 }
 
-### Now see that greeting
+### Now you can see that greeting
 
 GET http://localhost:5000/api/Greetings/{xxxx-xxxx-xxxx-xxx}
 
 
-### Now add some more greetings
+### Now you can add some more greetings
 
 POST http://localhost:5000/api/Greetings
 
@@ -51,11 +53,11 @@ Content-Type: application/json
     "Message" : "Hello NetCoreConf"
 }
 
-### Now see all the greeetings
+### Now you can see all the greeetings
 
 GET http://localhost:5000/api/Greetings
 
-### Now delete one greeetings
+### And now you can delete one greeetings
 
 DELETE http://localhost:5000/api/Greetings/{xxxx-xxxx-xxxx-xxx}
 
