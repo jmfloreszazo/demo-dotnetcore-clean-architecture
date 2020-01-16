@@ -13,12 +13,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "miscellaneous", "miscellane
 	ProjectSection(SolutionItems) = preProject
 		build.ps1 = build.ps1
 		docker-compose.yml = docker-compose.yml
+		Ensúciate con “Clean Architecture” - 2020.pdf = Ensúciate con “Clean Architecture” - 2020.pdf
 		..\README.md = ..\README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingsUnitTest", "GreetingsUnitTest\GreetingsUnitTest.csproj", "{05C3AB0F-2F0C-4F3C-9FAB-B34513601831}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreetingsUnitTest", "GreetingsUnitTest\GreetingsUnitTest.csproj", "{05C3AB0F-2F0C-4F3C-9FAB-B34513601831}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreetingsIntegrationTest", "GreetingsIntegrationTest\GreetingsIntegrationTest.csproj", "{5410C2E5-8BDC-46F3-B434-A1D60627C7FC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GreetingsIntegrationTest", "GreetingsIntegrationTest\GreetingsIntegrationTest.csproj", "{5410C2E5-8BDC-46F3-B434-A1D60627C7FC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
